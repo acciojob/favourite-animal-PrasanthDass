@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    /* Center all content on the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    /* Background color for the body */
+    background-color: #f4f4f4; 
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    max-width: 600px; /* Limits paragraph width for readability */
+}
+
+img {
+    /* Ensures the image is responsive */
+    max-width: 80%; 
+    height: auto;
+    /* Styling to frame the image */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
